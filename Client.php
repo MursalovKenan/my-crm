@@ -68,4 +68,11 @@ class Client
         $this->phone = $phone;
     }
 
+    public function printInfo()
+    {
+        echo 'first name is ' . $this->firstName. "\n";
+        echo 'last name is ' , $this->lastMame. "\n";
+        echo 'Phone is ' . $this->phone;
+    }
+
 }
