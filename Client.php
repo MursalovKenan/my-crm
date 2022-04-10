@@ -59,7 +59,6 @@ class Client
     {
         $this->lastMame = $lastMame;
     }
-
     /**
      * @param mixed $phone
      */
@@ -70,8 +69,8 @@ class Client
 
     public function printInfo()
     {
-        echo 'first name is ' . $this->firstName. "\n";
-        echo 'last name is ' , $this->lastMame. "\n";
+        echo 'first name is ' . $this->firstName . PHP_EOL;
+        echo 'last name is ' . $this->lastMame . PHP_EOL;
         echo 'Phone is ' . $this->phone;
     }
 
